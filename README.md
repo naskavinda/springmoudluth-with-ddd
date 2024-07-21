@@ -64,3 +64,7 @@ This project is a sample application that demonstrates how to build a modular mo
 References:
 - [Spring Modulith](https://docs.spring.io/spring-modulith/reference/fundamentals.html)
 - [Working with Application Events](https://docs.spring.io/spring-modulith/reference/events.html)
+
+
+
+ **NOTE**: If you are publishing any event that event publishing method or class should annotated with the @Transactional annotation. otherwise you will not be able to listen the event.
